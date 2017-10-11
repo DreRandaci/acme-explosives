@@ -1,0 +1,22 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "home",
+            "description": "Brew your favorite drinks at home."
+        },
+        {
+            "id": 1,
+            "category": 1,
+            "name": "commercial",
+            "description": "Brew your customers the perfect cup."
+        },
+        {
+            "id": 2,
+            "category": 2,
+            "name": "grinders",
+            "description": "Home grinders."
+        }
+    ]
+}
