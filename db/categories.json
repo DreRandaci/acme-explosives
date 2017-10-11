@@ -1,16 +1,16 @@
 {
     "categories": [
-        {
+        [{
             "id": 0,
             "name": "Home Espresso Machines"
-        },
-        {
+        }],
+        [{
             "id": 1,
             "name": "Commercial Espresso Machines"
-        },
-        {
+        }],
+        [{
             "id": 2,
             "name": "Home Grinders"
-        }
+        }]
     ]
 }
