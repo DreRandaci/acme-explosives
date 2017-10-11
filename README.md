@@ -3,7 +3,7 @@ You are going to be creating several JSON files that will be describing all of t
 
 ### Product Categories
 
-- [] Choose at least two, but as many of you like, categories for your products. Give each one an integer unique id.
+- [x] Choose at least two, but as many of you like, categories for your products. Give each one an integer unique id.
 
 ##### Here's an example.
 
@@ -26,9 +26,9 @@ categories.json
 
 ### Product Types
 
-- [] Create a JSON file describing types for each category of your products. 
-- [] For each type, add a key/value pair that creates a relationship to the corresponding category. 
-- [] Create at least 3 types for each category.
+- [x] Create a JSON file describing types for each category of your products. 
+- [x] For each type, add a key/value pair that creates a relationship to the corresponding category. 
+- [x] Create at least 3 types for each category.
 
 ##### Here's an example.
 
@@ -48,9 +48,9 @@ types.json
 
 ### Product Details
 
-- [] Create a JSON file describing each product you offer. 
-- [] Add a key/value pair that creates a relationship to the appropriate product type. 
-- [] Add at least 3 products for each type.
+- [x] Create a JSON file describing each product you offer. 
+- [x] Add a key/value pair that creates a relationship to the appropriate product type. 
+- [x] Add at least 3 products for each type.
 
 ##### Here's an example.
 
