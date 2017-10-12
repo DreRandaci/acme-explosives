@@ -3,20 +3,56 @@
         [{
             "id": 0,
             "category": 0,
-            "name": "home",
+            "name": "home domestic",
+            "description": "Brew your favorite drinks at home."
+        }],
+        [{
+            "id": 0,
+            "category": 0,
+            "name": "office domestic",
+            "description": "Brew your favorite drinks at the office."
+        }],
+        [{
+            "id": 0,
+            "category": 0,
+            "name": "rental domestic",
+            "description": "Let anyone brew their favorite drinks."
+        }],
+        [{
+            "id": 1,
+            "category": 1,
+            "name": "home commercial",
             "description": "Brew your favorite drinks at home."
         }],
         [{
             "id": 1,
             "category": 1,
-            "name": "commercial",
-            "description": "Brew your customers a great cup."
+            "name": "office commercial",
+            "description": "Brew your favorite drinks at the office."
+        }],
+        [{
+            "id": 1,
+            "category": 1,
+            "name": "rental commercial",
+            "description": "Let anyone brew their favorite drinks."
         }],
         [{
             "id": 2,
             "category": 2,
-            "name": "grinders",
-            "description": "Home grinders."
+            "name": "home grinder",
+            "description": "Grind fresh coffee at home."
+        }],
+        [{
+            "id": 2,
+            "category": 2,
+            "name": "office grinder",
+            "description": "Grind fresh coffee at the office."
+        }],
+        [{
+            "id": 2,
+            "category": 2,
+            "name": "rental grinder",
+            "description": "Rent your grinders out."
         }]
     ]
 }
