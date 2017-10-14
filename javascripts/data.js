@@ -2,12 +2,15 @@
 
 const dom = require('./domHandler');
 
-let fullArray = [];
+let allProductData = [];
+let typesArray = [];
+let productsArray = [];
 
 const categoriesJSON = () => {
     return new Promise((resolve, reject) => {
         $.ajax("./db/categories.json").done((data) => {
-            resolve(data.categories);    
+            resolve(data.categories);
+            allProductData = data.categories;        
         }).fail((error) => {
             reject(error);
         });
@@ -17,7 +20,8 @@ const categoriesJSON = () => {
 const typesJSON = () => {
     return new Promise((resolve, reject) => {
         $.ajax("./db/types.json").done((data) => {
-            resolve(data.types);    
+            resolve(data.types); 
+            typesArray = data.types;   
         }).fail((error) => {
             reject(error);
         });
@@ -34,49 +38,47 @@ const productsJSON = () => {
     });
 };
 
-const dataGetter = () => {
-    Promise.all([categoriesJSON(), typesJSON()]).then((results) => {
-        // console.log('results in productGetter:', results);
-        productsJSON().then((products) => {
-            fullArray.push(products);
-            results.forEach((array) => {
-                // console.log('full array in first forEach loop:', array);                
-                array.forEach((eachArrayIndex) => {
-                    // console.log('eachArrayIndex in second forEach loop:', eachArrayIndex);
-                    // eachArrayIndex.index = [];
-                    eachArrayIndex.forEach((category) => {
-                        // console.log('products in third forEach loop', products);
-                        // products.forEach((product) => {
-                        //     if (product.id === ) {
-                        //         eachArrayIndex.index.push(product);
-                        //     }
-                        // });
-                        // console.log('eachArrayIndex.index:', eachArrayIndex.index);
-                        console.log('products before push:', products);
-                        console.log('category before push:', category);
-                        // console.log('eachArrayIndex before push:', eachArrayIndex);
-                        fullArray.push(category);
-                        console.log('fullArray:', fullArray);
+const combineData = () => {
+    Promise.all([categoriesJSON(), typesJSON()]).then((results) => {        
+        productsJSON().then((products) => { 
+            productsArray = products;        
+            console.log('productsArray:', productsArray);          
+            allProductData = results[0];
+            typesArray = results[1];                                                                                        
+            allProductData.forEach((category, index1) => {                 
+                category[0].categoryTypes = [];                              
+                typesArray.forEach((type, index2) => {                    
+                    category.forEach((categoryItem, index3) => {                                                
+                        type.forEach((typeItem, index4) => {                                                                                    
+                            if (categoryItem.id === typeItem.category) {
+                                categoryItem.categoryTypes.push(typeItem);                                
+                            }
+                        });                    
                     });
                 });
-            });
-        // makeProducts();
-        });        
+            });  
+            combineProductsWithData();                                                                                                                                       
+        });
+        console.log('full categoriesArray:', allProductData);                
     }).catch((error) => {
         console.log('error from Promise.all', error);
     });
 };
 
-const makeProducts = () => {
-    // dom(products);
+const combineProductsWithData = () => {
+    allProductData.forEach((category, index1) => {
+        productsArray.forEach((product, index2) => {
+            console.log('product', product);
+        });
+    });
 };
 
 const initializer = () => {
-    dataGetter();
+    combineData();
 };
 
-const getProducts = () => {
-    return fullArray;
+const getAllData = () => {
+    return allProductData;
 };
 
-module.exports = {initializer, getProducts};
+module.exports = {initializer, getAllData};
