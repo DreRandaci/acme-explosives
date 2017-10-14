@@ -1,67 +1,67 @@
 {
-    "products": [{
-        "r60v": 
+    "products": [
+        [{"r60v": 
         {
             "id": 0,
             "type": 0,
             "name": "Rocket R60V",
             "description": "Dual boiler and PID controlled. Rotary pump with water reservoir or direct water connection."
-        },
-        "r58": 
+        }}],
+        [{"r58": 
         {
             "id": 1,
             "type": 0,
             "name": "Rocket R58",
             "description": "Dual independently operated PID controlled boilers allowing for optimum extraction of any coffee type or roast style."
-        },
-        "mazzafiato": 
+        }}],
+        [{"mazzafiato": 
         {
             "id": 2,
             "type": 0,
             "name": "Rocket Mazzafiato",
             "description": "Temperature control is optimised through a PID controller drawing on 4 different signal parameters to ensure stability and optimum results in the cup."
-        },
-        "r9": 
+        }}],
+        [{"r9": 
         {
             "id": 3,
             "type": 1,
             "name": "Rocket R 9",
             "description": "Pressure transducer technology was used to dramatically reduce steam pressure recovery times, increasingly important in high volume cafes."
-        },
-        "boxer_2": 
+        }}],
+        [{"boxer_2": 
         {
             "id": 4,
             "type": 1,
             "name": "Rocket Boxer Alto 2",
             "description": "A premium compact machine combining the specifications necessary to produce espresso without compromise yet retaining both the style and finish not normally found in the compact machine market."
-        },
-        "boxer_1": 
+        }}],
+        [{"boxer_1": 
         {
             "id": 5,
             "type": 1,
             "name": "Rocket Boxer Single Group",
             "description": "A smaller sized machine for those businesses where space is a premium, drawing on over sized boiler capacities that will cope with any peak service demand."
-        },
-        "forte": 
+        }}],
+        [{"forte": 
         {
             "id": 6,
             "type": 2,
             "name": "Baratza Forté AP",
             "description": "The Forté AP is a compact, commercial grade grinder, dedicated to grinding for ALL brew methods."
-        },
-        "sette": 
+        }}],
+        [{"sette": 
         {
             "id": 7,
             "type": 2,
             "name": "Baratza Sette 270W",
             "description": "Designed using the weighing technology of Acaia, giving precise and accurate weight based dosing with the revolutionary ability to grind by weight directly into a portafilter."
-        },
-        "vario_w": 
+        }}],
+        [{"vario_w": 
         {
             "id": 8,
             "type": 2,
             "name": "Baratza Vario-W",
             "description": "A weight-based grinder for extreme accuracy making it easier to brew that perfect cup of coffee."
-        }
-    }]
+        }}]
+    ]
 }
