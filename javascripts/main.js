@@ -2,4 +2,7 @@
 
 const data = require('./data');
 require('./events');
-data.initializer();
+
+// document.readyState(() => {
+    data.initializer();
+// });

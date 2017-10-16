@@ -1,18 +1,15 @@
 'use strict';
 
 const data = require('./data');
-
-let allData = data.getAllData();
-// console.log('allData', allData);
+const dom = require ('./domHandler');
 
 $('a').click((e) => {
-    console.log(e.target);    
-    // allData.forEach((click) => {
-    //     console.log('click:', click);
-    //     if (e.target.innerHTML === click.name) {
-    //         console.log('click.name:', click.name);
-    //     }
-    // });
+    let allData = data.getAllData();
+    allData.forEach((thing) => {
+        if (e.target.innerHTML === thing[0].name) {
+            dom.buildDom(thing[0]);
+        }        
+    });    
 });
 
 module.exports = {};
