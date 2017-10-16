@@ -41,15 +41,14 @@ const productsJSON = () => {
 const combineData = () => {
     Promise.all([categoriesJSON(), typesJSON()]).then((results) => {        
         productsJSON().then((products) => { 
-            productsArray = products;        
-            console.log('productsArray:', productsArray);          
+            productsArray = products;                
             allProductData = results[0];
             typesArray = results[1];                                                                                        
-            allProductData.forEach((category, index1) => {                 
+            allProductData.forEach((category) => {                 
                 category[0].categoryTypes = [];                              
-                typesArray.forEach((type, index2) => {                    
-                    category.forEach((categoryItem, index3) => {                                                
-                        type.forEach((typeItem, index4) => {                                                                                    
+                typesArray.forEach((type) => {                    
+                    category.forEach((categoryItem) => {                                                
+                        type.forEach((typeItem) => {                                                                                    
                             if (categoryItem.id === typeItem.category) {
                                 categoryItem.categoryTypes.push(typeItem);                                
                             }
@@ -59,17 +58,31 @@ const combineData = () => {
             });  
             combineProductsWithData();                                                                                                                                       
         });
-        console.log('full categoriesArray:', allProductData);                
     }).catch((error) => {
         console.log('error from Promise.all', error);
     });
 };
 
-const combineProductsWithData = () => {
-    allProductData.forEach((category, index1) => {
-        productsArray.forEach((product, index2) => {
-            console.log('product', product);
+const combineProductsWithData = () => {    
+    allProductData.forEach((category) => {        
+        category[0].products = [];                        
+        productsArray.forEach((product) => {         
+            category.forEach((cat) => {
+                product.forEach((item) => {                           
+                    if (cat.id === item.type) {
+                        cat.products.push(product);
+                    }    
+                });                                             
+            });          
         });
+    });
+    console.log('allProductData:', allProductData);
+    // sendToDom(allProductData);
+};
+
+const sendToDom = (data) => {
+    data.forEach((thing) => {
+        dom.buildDom(thing);
     });
 };
 
@@ -81,4 +94,4 @@ const getAllData = () => {
     return allProductData;
 };
 
-module.exports = {initializer, getAllData};
+module.exports = {initializer, sendToDom, getAllData};
