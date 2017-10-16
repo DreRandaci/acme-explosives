@@ -3,6 +3,6 @@
 const data = require('./data');
 require('./events');
 
-// document.readyState(() => {
+$(document).ready(function() {
     data.initializer();
-// });
+});
