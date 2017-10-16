@@ -3,13 +3,9 @@
 const data = require('./data');
 const dom = require ('./domHandler');
 
-$('a').click((e) => {
+$('#dropdown').click((e) => {
     let allData = data.getAllData();
-    allData.forEach((thing) => {
-        if (e.target.innerHTML === thing[0].name) {
-            dom.buildDom(thing[0]);
-        }        
-    });    
+        dom.buildDom(allData, e);
 });
 
 module.exports = {};

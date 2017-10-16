@@ -75,15 +75,7 @@ const combineProductsWithData = () => {
                 });                                             
             });          
         });
-    });
-    console.log('allProductData:', allProductData);
-    // sendToDom(allProductData);
-};
-
-const sendToDom = (data) => {
-    data.forEach((thing) => {
-        dom.buildDom(thing);
-    });
+    });    
 };
 
 const initializer = () => {
@@ -94,4 +86,4 @@ const getAllData = () => {
     return allProductData;
 };
 
-module.exports = {initializer, sendToDom, getAllData};
+module.exports = {initializer, getAllData};
