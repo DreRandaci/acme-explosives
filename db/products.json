@@ -25,43 +25,169 @@
         {
             "id": 3,
             "type": 1,
-            "name": "Rocket R 9",
-            "description": "Pressure transducer technology was used to dramatically reduce steam pressure recovery times, increasingly important in high volume cafes."
+            "name": "Jura Micro 1",
+            "description": "The Jura ENA Micro 1 Automatic Coffee Center is tiny but mighty, delivering a gourmet cup of espresso or coffee with an ultra-compact footprint."
         }],
         [
         {
             "id": 4,
             "type": 1,
-            "name": "Rocket Boxer Alto 2",
-            "description": "A premium compact machine combining the specifications necessary to produce espresso without compromise yet retaining both the style and finish not normally found in the compact machine market."
+            "name": "Miele CM",
+            "description": "Designed with looks for the modern kitchen, the Miele CM6310 Superautomatic Coffee System features an intuitive digital display that marries with one-touch technology."
         }],
         [
         {
             "id": 5,
             "type": 1,
-            "name": "Rocket Boxer Single Group",
-            "description": "A smaller sized machine for those businesses where space is a premium, drawing on over sized boiler capacities that will cope with any peak service demand."
+            "name": "Krups Barista",
+            "description": "Glimpse into the future of superautomatics with the Krups Barista One-Touch. The EA9010, an update from its predecessor (the EA9000), brings new meaning to superautomatic with its fully integrated one-touch digital screen and easy to read illustrated options."
         }],
         [
         {
             "id": 6,
             "type": 2,
-            "name": "Baratza Forté AP",
-            "description": "The Forté AP is a compact, commercial grade grinder, dedicated to grinding for ALL brew methods."
+            "name": "Rocket R 9",
+            "description": "Rocket Espresso's answer for cafés the world over, the R9 automatic espresso machine offers a design dedicated for individual control of each brew group."
         }],
         [
         {
             "id": 7,
             "type": 2,
-            "name": "Baratza Sette 270W",
-            "description": "Designed using the weighing technology of Acaia, giving precise and accurate weight based dosing with the revolutionary ability to grind by weight directly into a portafilter."
+            "name": "La Marzoccoo GB/5",
+            "description": "La Marzocco is in a league of its own when it comes to the functionality, style and available customization of its commercial machines. And the GB/5 is no exception."
         }],
         [
         {
             "id": 8,
             "type": 2,
+            "name": "Nuova Simonelli Appia",
+            "description": "Using its passion, innovation and technology to provide coffee lovers with an ideal cup of espresso every time, Nuova Simonelli offers cafe and restaurants with heavy traffic plenty of customer satisfaction with the Appia Semi-Automatic Commercial Espresso Machine."
+        }],
+        [
+        {
+            "id": 9,
+            "type": 3,
+            "name": "Baratza Forté AP",
+            "description": "The Forté AP is a compact, commercial grade grinder, dedicated to grinding for ALL brew methods."
+        }],
+        [
+        {
+            "id": 10,
+            "type": 3,
+            "name": "Baratza Sette 270W",
+            "description": "Designed using the weighing technology of Acaia, giving precise and accurate weight based dosing with the revolutionary ability to grind by weight directly into a portafilter."
+        }],
+        [
+        {
+            "id": 11,
+            "type": 3,
             "name": "Baratza Vario-W",
             "description": "A weight-based grinder for extreme accuracy making it easier to brew that perfect cup of coffee."
+        }],
+        [ 
+        {
+            "id": 12,
+            "type": 4,
+            "name": "GSI Outdoors Java Mill",
+            "description": "The next time you're packing for a most excellent expedition, don't forget the grinder!"
+        }],
+        [
+        {
+            "id": 13,
+            "type": 4,
+            "name": "Baratza Encore",
+            "description": "This is an easy to use, easy to adjust grinder that offers a consistent grind at a good price."
+        }],
+        [
+        {
+            "id": 14,
+            "type": 4,
+            "name": "Breville Dose Control Pro",
+            "description": "With 60 separate grind settings and easy to read suggestions on the grind adjustment collar, it's simple to grind anywhere from espresso to French Press and back."
+        }],
+        [
+        {
+            "id": 15,
+            "type": 5,
+            "name": "Baratza Forté Brew Grinder",
+            "description": "The Forte BG is a commercial flat burr grinder dedicated to perfecting medium to coarse grinds."
+        }],
+        [
+        {
+            "id": 16,
+            "type": 5,
+            "name": "Mazzer Super Jolly",
+            "description": "The Mazzer Super Jolly is perhaps the most well-known Mazzer grinder made. Its affordable price, incredible grind quality and durability have made it the premier choice for many small to mid-sized cafes."
+        }],
+        [
+        {
+            "id": 17,
+            "type": 5,
+            "name": "Mahlkonig EK43",
+            "description": "Mahlkonig's famous grinder has been in the shadows for years, but it's recently sprung into the spotlight and shown its worth."
+        }],
+        [
+        {
+            "id": 18,
+            "type": 6,
+            "name": "Bonavita Coffee Maker BV1900TS",
+            "description": "Meet the next generation of coffee brewers, the Bonavita BV1900TS. With features like a redesigned showerhead, more powerful heating element, and a pre-infusion brew mode, you can take your coffee to the next level."
+        }],
+        [
+        {
+            "id": 19,
+            "type": 6,
+            "name": "Fetco CBS-2132XTS",
+            "description": "The Dual Station 3 Liter or 1 Gallon CBS-2132XTS Touchscreen Series Airpot Coffee Brewer is a perfect hot beverage solution for high volume self-service environments such as convenience stores, cafeterias, specialty coffee shops or office coffee service."
+        }],
+        [
+        {
+            "id": 20,
+            "type": 6,
+            "name": "Curtis G4 ThermoPro",
+            "description": "Even if the thought of tinkering with brewing variables does not interest you, this ThermoPro brewer has something to offer as you can make great tasting coffee out of the box by utilizing the pre-set, one-touch global recipes."
+        }],
+        [
+        {
+            "id": 21,
+            "type": 7,
+            "name": "Hario Mizudashi Cold Brew Coffee Pot",
+            "description": "To the delight of the cold brew crowd, Hario steps in with the Mizudashi and offers a delightfully simple solution for the at-home aficionado."
+        }],
+        [
+        {
+            "id": 22,
+            "type": 7,
+            "name": "Yama Cold Coffee Brewer",
+            "description": "The beautifully crafted brewer uses extreme care in slowly and carefully extracting the coffee for an ideal cold brew."
+        }],
+        [
+        {
+            "id": 23,
+            "type": 7,
+            "name": "Bruer - Cold Bruer",
+            "description": "The Cold Bruer is a stylish and modern cold-drip brewer that allows you to make delicious cold brew coffee quickly and easily right at home."
+        }],
+        [
+        {
+            "id": 24,
+            "type": 8,
+            "name": "Chemex Single Cup",
+            "description": "The six cup model can make up to 30 ounces of coffee and is perfect for brewing for 1-3 people."
+        }],
+        [
+        {
+            "id": 25,
+            "type": 8,
+            "name": "Bee House Ceramic Coffee Dripper",
+            "description": "Created for by-the-cup brewing, the Bee House brewer provides a fresher alternative to automated coffee makers."
+        }],
+        [
+        {
+            "id": 26,
+            "type": 8,
+            "name": "Walkure Bayreuth",
+            "description": "The Bayreuth offers a modern twist on a beloved tradition. Everything that generation after generation has appreciated about Walküre – unique filters, even saturation, and easy serving – is now available inside a trendy brewer designed by decorated German artist Daniel Eltner."
         }]
     ]
 }

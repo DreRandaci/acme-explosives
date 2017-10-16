@@ -3,56 +3,56 @@
         [{
             "id": 0,
             "category": 0,
-            "name": "Home Domestic",
-            "description": "Brew your favorite drinks at home."
+            "name": "Semi-automatic",
+            "description": "Semi-automatic espresso machines offer just the right amount of control over how your espresso is made at home. While they may look different, the basic functionality of a semi-automatic espresso machine includes a boiler, a portafilter and a switch or lever to perform the extraction. You’ll still grind and tamp your espresso (or insert an espresso pod), start the extraction and then steam or froth your milk as necessary."
         }],
         [{
-            "id": 0,
+            "id": 1,
             "category": 0,
-            "name": "Office Domestic",
-            "description": "Brew your favorite drinks at the office."
+            "name": "Superautomatic",
+            "description": "Too bleary-eyed to grind, tamp and steam your own espresso shot in the morning? Let a superautomatic espresso machine do it for you, saving you time, effort and clean up! At the push of a button, these espresso machines create consistent coffee and espresso drinks like lattes and cappuccinos."
         }],
         [{
-            "id": 0,
+            "id": 2,
             "category": 0,
-            "name": "Domestic Rental",
-            "description": "Let anyone brew their favorite drinks."
-        }],
+            "name": "Commercial",
+            "description": "Whether it is for a bookstore that provides espresso to browsing customers or the busiest drive-through espresso stand on the block, we have a wide range of commercial grinders that we can custom fit to your needs."
+        }],        
         [{
-            "id": 1,
-            "category": 1,
-            "name": "Home Commercial",
-            "description": "Brew your favorite drinks at home."
-        }],
-        [{
-            "id": 1,
-            "category": 1,
-            "name": "Office Commercial",
-            "description": "Brew your favorite drinks at the office."
-        }],
-        [{
-            "id": 1,
-            "category": 1,
-            "name": "Commercial Rental",
-            "description": "Let anyone brew their favorite drinks."
-        }],
-        [{
-            "id": 2,
+            "id": 3,
             "category": 2,
-            "name": "Home Grinder",
-            "description": "Grind fresh coffee at home."
+            "name": "Home Espresso Grinders",
+            "description": "Every dynamite cup of espresso starts with a dynamite grind. Consistency, texture, size - it all matters. Whether you are new to the world of espresso or have been making the perfect cup of coffee for as long as you can remember, fresh coffee grounds are the first step."
         }],
         [{
-            "id": 2,
+            "id": 4,
             "category": 2,
-            "name": "Office Grinder",
-            "description": "Grind fresh coffee at the office."
+            "name": "Batch Brew Grinders",
+            "description": "Take your pick from our curated collection that includes everything from entry-level coffee grinders to precision-designed espresso grinders."
         }],
         [{
-            "id": 2,
+            "id": 5,
             "category": 2,
-            "name": "Rental Grinder",
-            "description": "Rent your grinders out."
+            "name": "Commercial Grinders",
+            "description": "Whether it is for a bookstore that provides espresso to browsing customers or the busiest drive-through espresso stand on the block, we have a wide range of commercial grinders that we can custom fit to your needs."
+        }],
+        [{
+            "id": 6,
+            "category": 1,
+            "name": "Coffee Makers",
+            "description": "Traditional coffee makers magically mix hot water and fresh coffee grounds, but many variables effect how your cup of coffee ultimately turns out."
+        }],
+        [{
+            "id": 7,
+            "category": 1,
+            "name": "Cold Brew Systems",
+            "description": "Brew fresh toddy anywhere, anytime."
+        }],
+        [{
+            "id": 8,
+            "category": 1,
+            "name": "Single Cup Brewers",
+            "description": "If you just need one, these are the brewers for you."
         }]
     ]
 }

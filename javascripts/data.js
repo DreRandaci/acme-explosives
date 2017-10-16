@@ -63,15 +63,17 @@ const combineData = () => {
     });
 };
 
-const combineProductsWithData = () => {    
+const combineProductsWithData = () => {        
     allProductData.forEach((category) => {        
         category[0].products = [];                        
         productsArray.forEach((product) => {         
-            category.forEach((cat) => {
-                product.forEach((item) => {                           
-                    if (cat.id === item.type) {
-                        cat.products.push(product);
-                    }    
+            category.forEach((mainCat) => {                
+                product.forEach((prod) => {                     
+                    mainCat.categoryTypes.forEach((catType) => {                                                                                                                   
+                        if (catType.id === prod.type) {
+                            mainCat.products.push(product);
+                        }    
+                    });
                 });                                             
             });          
         });
