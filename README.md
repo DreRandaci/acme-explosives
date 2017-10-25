@@ -75,4 +75,3 @@ products.json
 - [x] Once all data is loaded, you need to display the products in a Bootstrap grid. 
 - [x] Each product must display the string name of its product type, and product category. Not the integer id value.
 
-![GitHub Logo](https://user-images.githubusercontent.com/30006986/31524481-8d567fb6-af7f-11e7-8d31-af9c388ed26e.png)
